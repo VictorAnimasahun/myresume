@@ -107,6 +107,11 @@ header {
   transform: translateY(-8px) rotate(-45deg);
 }
 
+/* WELCOME */
+.welcome {
+	display: flex;
+}
+
 /* OVERLAY */
 .overlay {
   position: fixed;
@@ -214,10 +219,6 @@ main {
   .navbar-menu {
     display: none;
   }
-
-  .navbar-toggle {
-    display: block;
-  }
 }
 
 @media (max-width: 880px) {
@@ -270,14 +271,16 @@ main {
 
 
 @media (max-width: 480px) {
-  .navbar-container {
-    padding: 0 1rem;
-  }
-
+	.navbar {
+		padding: 0.5rem;
+	}
   .logo img {
-    width: 105px;
+    width: 80px;
   }
-
+  .navbar-toggle {
+	display: block;
+  }
+  
   .navbar-menu li a {
     font-size: 1rem;
     padding: 3px 15px;
@@ -321,5 +324,4 @@ main {
 .footernav ul li a {
 	font-size: 0.8rem;
 }
-
 }
