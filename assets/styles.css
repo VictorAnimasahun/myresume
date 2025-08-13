@@ -159,6 +159,7 @@ main {
 .heading {
   text-align: center;
   color: #7e4d04;
+  padding-top: 25px;
 }
 
 .footer-container {
