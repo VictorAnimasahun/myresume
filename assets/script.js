@@ -15,22 +15,27 @@ overlay.addEventListener('click', () => {
 	overlay.classList.remove('active');
 });
 
-let myList = ["I love cats", "I enjoy long walks", "I am a voracious reader"];
-  let count = 0;
-  let spanElement = document.getElementById("changing");
-
-  setInterval(() => {
-    // Add "hide" class to start animation
-    spanElement.classList.add("hide");
-
-    // After animation finishes (0.6s), change text
-    setTimeout(() => {
-      spanElement.textContent = myList[count];
-      spanElement.classList.remove("hide"); // bring it back
-      count++;
-
-      if (count === myList.length) {
-        count = 0;
-      }
-    }, 600); // matches the CSS transition duration
-  }, 3000);
+document.addEventListener('DOMContentLoaded', function() {
+    let myList = ["I love cats", "I enjoy long walks", "I am a voracious reader"];
+    let count = 0;
+    let spanElement = document.getElementById("changing");
+    
+    // Add null check
+    if (!spanElement) {
+        console.error("Element with ID 'changing' not found!");
+        return;
+    }
+    
+    setInterval(() => {
+        spanElement.classList.add("hide");
+        
+        setTimeout(() => {
+            spanElement.textContent = myList[count];
+            spanElement.classList.remove("hide");
+            count++;
+            if (count === myList.length) {
+                count = 0;
+            }
+        }, 600);
+    }, 3000);
+});
