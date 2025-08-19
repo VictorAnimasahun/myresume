@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Animasahun</title>
+    <link rel="stylesheet" href="defunctstyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <header>
+		<div class="navbar">
+			<div class="navbar-container">
+				<div class="logo">
+					<img src="assets/Pixels & Scribs1.png" alt="descriptive logo of coy">
+				</div>
+				<button class="navbar-toggle">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
+
+				<ul class="navbar-menu">
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="welcome">
+			<div class="socials">
+				<a href=""><i class="fa-brands fa-facebook"></i></a>
+				<a href=""><i class="fa-brands fa-instagram"></i></a>
+				<a href=""><i class="fa-brands fa-twitter"></i></a>
+				<a href=""><i class="fa-brands fa-youtube"></i></a>
+				<a href=""><i class="fa-brands fa-google-plus"></i></a>
+			</div>
+			<div class="welcome-message">
+				<h1>My Name is</h1>
+				<p>Victor Abiodun Animasahun</p>
+				<p>I am a Software engineer and web development with an interest in education and healthcare</p>
+				<p></p>
+				<p></p>
+			</div>
+			<div class="weblink">
+				<a href="https://victoranimasahun.github.io/myresume/">victoranimasahun</a>
+			</div>
+		</div>
+	</header>
+	
+	<div class="overlay"></div>
+
+	<script src="assets/script.js"></script>
+	
+	<main>
+		<div class="heading">
+			<h2>Check out my projects:</h2>
+		</div>
+
+		<div class="gallery">
+			<a href="www.facebook.com"><img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="image of a cute cat"></a>
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg" alt="image of a cute cat">
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg" alt="image of a cute cat">
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg" alt="image of a cute cat">
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg" alt="image of a cute cat">
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg" alt="image of a cute cat">
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg" alt="image of a cute cat">
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg" alt="image of a cute cat">
+			<img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg" alt="image of a cute cat">
+		</div>
+	</main>
+
+	<hr>
+
+	<footer>
+		<div class="footer-container">
+			<div class="socialIcons">
+				<a href=""><i class="fa-brands fa-facebook"></i></a>
+				<a href=""><i class="fa-brands fa-instagram"></i></a>
+				<a href=""><i class="fa-brands fa-twitter"></i></a>
+				<a href=""><i class="fa-brands fa-youtube"></i></a>
+				<a href=""><i class="fa-brands fa-google-plus"></i></a>
+			</div>
+		
+			<div class="footernav">
+				<ul>
+					<li><a href="main.html">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		
+			<div class="footerBottom">
+				<p>Copyright &copy;2025; Designed by <span class="designer">Victor Animasahun</span></p>
+			</div>
+		</div>
+	</footer>
+  </body>
+</html>
